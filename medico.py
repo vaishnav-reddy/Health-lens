@@ -1,5 +1,8 @@
 import streamlit as st
 import google.generativeai as genai
+from dotenv import load_dotenv
+load_dotenv()
+
 from api_key import api_key
 
 # Configure Google Generative AI
