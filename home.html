@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Health Lens - AI Medical Analysis</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- <link rel="stylesheet" href="all.css" /> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">
+      <i class="fas fa-heartbeat pulse"></i>
+      <span>Health Lens</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact" class="contact-btn">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Smarter Diagnoses,<br>Healthier Lives</h1>
+      <p>Accurate, fast, and secure medical diagnosis for Humans, Animals, and Plants.</p>
+      <div class="hero-buttons">
+        <a href="http://localhost:8501" class="primary-btn">Get Started <i class="fas fa-arrow-right"></i></a>
+        <a href="#about" class="secondary-btn">Watch Demo <i class="fas fa-play"></i></a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <video width="600" controls>
+        <source src="healthvideo1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features" id="features">
+    <h2>Why Choose Health Lens?</h2>
+    <div class="features-grid">
+      <div class="feature-card">
+        <i class="fas fa-robot"></i>
+        <h3>AI Analysis</h3>
+        <p>Advanced medical diagnosis for Humans, Animals, and Plants.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-clock"></i>
+        <h3>Instant Results</h3>
+        <p>Get analysis results within seconds.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-user-md"></i>
+        <h3>24/7 Support</h3>
+        <p>Round-the-clock medical assistance.</p>
+      </div>
+      <div class="feature-card">
+        <i class="fas fa-lock"></i>
+        <h3>Secure & Private</h3>
+        <p>Your data is encrypted and protected.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials" id="testimonials">
+    <h2>What Our Users Say</h2>
+    <div class="testimonials-grid">
+      <div class="testimonial-card">
+        <img src="user1.jpg" alt="User 1" />
+        <p>"Health Lens has been a game-changer for my health. I’m so glad I found it!"</p>
+        <span>- John</span>
+      </div>
+      <div class="testimonial-card">
+        <img src="user2.jpg" alt="User 2" />
+        <p>"The AI analysis is so precise and easy to navigate. It’s like having a doctor in your pocket!"</p>
+        <span>- Smitha</span>
+      </div>
+      <div class="testimonial-card">
+        <img src="user3.jpeg" alt="User 3" />
+        <p>"24/7 support is a lifesaver. Thank you, Health Lens!"</p>
+        <span>- Mike</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2>About Health Lens</h2>
+    <div class="about-content">
+      <div class="about-text">
+        <p>Health Lens is a cutting-edge AI-powered platform designed to provide accurate and instant medical diagnoses for Humans, Animals, and Plants. Our mission is to make healthcare accessible, secure, and efficient for everyone.</p>
+        <br><a href="#" class="primary-btn3">Learn More</a>
+      </div>
+      <div class="about-image">
+        <video width="600" controls>
+          <source src="healthvideo2.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-form" onsubmit="handleSubmit(event)">
+      <form>
+        <input type="text" id="name" placeholder="Your Name" required />
+        <input type="email" id="email" placeholder="Your Email" required />
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="primary-btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">
+        <i class="fas fa-heartbeat"></i>
+        <span>Health Lens</span>
+      </div>
+      <div class="footer-links">
+        <a href="#features">Features</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2023 Health Lens. All rights reserved.</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
