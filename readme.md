@@ -23,6 +23,7 @@ This application provides a starting point for building a more advanced machine 
 
 ### 📁 Repository Structure
 
+```plaintext
 Health-lens/
 ├── .streamlit/
 │   └── secrets.toml
@@ -42,7 +43,7 @@ Health-lens/
 ├── healthvideo2.mp4
 │
 └── .gitignore
-
+```
 
 
 
