@@ -21,7 +21,7 @@ This application provides a starting point for building a more advanced machine 
 
 ---
 
-## 📁 Repository Structure
+### 📁 Repository Structure
 
 Health-lens/
 ├──.streamlit
@@ -38,6 +38,7 @@ Health-lens/
 ├── healthvideo1.mp4 # Demo video files
 ├── healthvideo2.mp4
 ├── .gitignore
+
 
 
 Files like `home.html`, `style.css`, and `script.js` form the web interface.  
