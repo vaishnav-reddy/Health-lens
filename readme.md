@@ -24,20 +24,25 @@ This application provides a starting point for building a more advanced machine 
 ### 📁 Repository Structure
 
 Health-lens/
-├──.streamlit
-    ├──.streamlit
-         ├──secrets.toml
-├── home.html # Main UI page
-├── style.css # Frontend styles
-├── script.js # Frontend JavaScript
-├── medico.py # Backend Python logic
-├── requirements.txt # Python dependencies
-├── user1.jpg # Example/test image
+├── .streamlit/
+│   └── secrets.toml
+│
+├── home.html               # Main UI page
+├── style.css               # Frontend styles
+├── script.js               # Frontend JavaScript
+│
+├── medico.py               # Backend Python logic (Streamlit app)
+├── requirements.txt        # Python dependencies
+│
+├── user1.jpg               # Example/test images
 ├── user2.jpg
 ├── user3.jpeg
-├── healthvideo1.mp4 # Demo video files
+│
+├── healthvideo1.mp4        # Demo video files
 ├── healthvideo2.mp4
-├── .gitignore
+│
+└── .gitignore
+
 
 
 
